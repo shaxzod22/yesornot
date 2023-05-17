@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+.heading{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.result-box{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.yes{
+    margin-right: 20px;
+}
+
+.no{
+    margin-left: 20px;
+}
+
+.form__weather{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.weather__input{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 150px;
+    background-color: rgb(196, 195, 195);
+    outline:none;
+}
+
+.checking-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 25px;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.form__l{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.size{
+    width: 24px;
+    height: 24px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 4px;
+    padding: 10px 35px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+.btn:active{
+  opacity: 0.6;
+}
